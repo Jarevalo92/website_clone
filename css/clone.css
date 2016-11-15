@@ -1,0 +1,268 @@
+body{
+  padding: 0;
+  margin: 0;
+
+}
+
+
+ul#menu{
+  display: block;
+  list-style-type: none;
+  margin: 0 0 0 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+ul#menu li {
+  display:inline;
+  color: black;
+  float: left;
+  padding: 3px 7px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  width: 150px;
+  padding bottom: 0;
+
+}
+
+ul#menu li a:hover {
+  background-color: #ddd;
+}
+
+span{
+  tex-indent: 3em;
+}
+
+a {
+  text-decoration: none;
+  color: #4d94ff;
+}
+
+div .uselessdiv{
+  clear:left;
+  padding-left: 5em;
+  padding-top: .3em;
+  padding-bottom: 0.02em;
+
+}
+
+div.slightlyusefuldiv{
+  display:block;
+  height: 2.6em;
+  margin-top: 0px;
+  background-color: #f1f1f1;
+}
+
+input.destination{
+  float:left;
+  height: 1.25em;
+  margin-left: 0em;
+  margin-top: .65em;
+  padding: .25em 1em;
+  width: 26em;
+
+}
+
+.wrapper {
+  float:left;
+  height: 1.25em;
+  margin-left: 0em;
+  margin-top: .45em;
+  border: .25px solid #bfbfbf;
+  display:inline-block;
+}
+
+input.searchbar {
+    display: inline;
+    background-color:transparent;
+    border:none;
+    width: 28em;
+    text-align: right;
+
+}
+
+div.wrapper button {
+  float: left;
+}
+
+button.searchbutton{
+  display:inline;
+  float:left;
+  height: 2.25em;
+  margin-left: 0em;
+  margin-top: .45em;
+  padding: 0 2em;
+  color: white;
+  background-color: #cc6600;
+  width: 8em;
+}
+
+button.addbutton{
+  display: inline;
+  float:left;
+  height: 2.25em;
+  width: 2.25em;
+  margin-left: 1em;
+  margin-top: .64em;
+  padding: .5em;
+  font-size: 10px;
+}
+
+div.body{
+  position: relative;
+  margin-top: 0;
+}
+
+div.lefthandbar{
+  margin-top: 0;
+  float:left;
+  background-color: #f2f2f2;
+  width: 323px;
+  min-height: 100vh;
+}
+
+
+div.lefthandbar ul {
+  font-size: 15px;
+  text-decoration: none;
+  float: left;
+  padding-left: 50px;
+  width: 323px;
+
+}
+div.lefthandbar li {
+  width: 48%;
+  float: left;
+
+}
+
+div.lefthandbar li#airlinefees{
+  padding: 18px 0 0 0;
+}
+
+div.lefthandbar p.flex{
+  font-size: 15px;
+  padding-left: 30px;
+  border-spacing: 10px;
+  border-bottom: .25px solid #d9d9d9;
+  padding-bottom: 20px;
+
+}
+
+div.lefthandbar div.graph{
+  border-bottom: .25px solid #d9d9d9;
+}
+
+div.lefthandbar div.graph img{
+  width: 250px;
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+div.lefthandbar div.checkboxes{
+  padding-left: 30px;
+  border-bottom: .25px solid #d9d9d9;
+}
+
+div.lefthandbar div.checkboxes p.stops{
+  margin-bottom: 0px;
+
+
+}
+
+div.lefthandbar ul.stops{
+  padding-top: 0px;
+  list-style-type: none;
+  padding-left: 0;
+
+}
+
+div.lefthandbar ul.stops li{
+  font-size: 15px;
+  padding-top: 0px;
+  padding-left: 0;
+  float: left;
+  clear: left;
+  width: 300px;
+}
+div.lefthandbar div.checkboxes p.stopprice{
+  padding-bottom: 20px;
+
+}
+
+div.lefthandbar div.times{
+  padding-left: 30px;
+  border-bottom: .25px solid #d9d9d9;
+
+}
+
+div.lefthandbar div.times p{
+  font-size: 15px;
+
+}
+div.lefthandbar div.times p img{
+  width: 277px;
+  height: 33px;
+
+}
+
+div.lefthandbar div.lastone {
+  padding-left: 30px;
+}
+
+div.lefthandbar div.lastone p{
+  font-size: 15px;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+
+
+div.body div#rightcell{
+  background-color: #ffffff;
+  width: 1200px;
+  min-height:100vh;
+
+}
+
+
+div.body div.headerdiv{
+  padding-top: 15px;
+  padding-left: 15px;
+  border-bottom: 3px solid #f4f4f4;
+
+}
+
+div.body div.headerdiv pre{
+  margin-top: 0;
+  margin-left: 323px;
+  padding-top: 11px;
+  height: 10px;
+  width: 40%;
+  font-family: "Helvetica Neue", "Lucida Grande", sans-serif;
+  /*border-bottom: .5px solid grey;*/
+}
+
+div.body div div.bodybox{
+  width:50%;
+  float: left;
+  display:inline-block;
+  padding-left: 30px;
+  padding-right: 10px;
+  margin-top: 3px;
+  height: 210px;
+  border-left: 3px solid #f4f4f4;
+}
+
+div.body div div.flightinfo{
+  width: 50%;
+  float: left;
+  margin-top: 3px;
+  height: 210px;
+  border-bottom: 3px solid #f4f4f4;
+  margin-left: 60px;
+}

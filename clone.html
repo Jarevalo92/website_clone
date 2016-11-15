@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>John's Clone</title>
+    <script type = "text/javascript" src="/Users/macuser/Desktop/wyncode/projects/website_clone/JS/event.js"></script>
+    <link rel= "stylesheet" href= "css/clone.css">
+  </head>
+  <body>
+      <ul id="menu">
+        <li>
+        <a href="javascript:void(0)" class="tablinks" onclick="openCity(event,'NYC &harr; REK')"><strong> ✈ NYC &harr; REK</strong><br />
+            <span>Apr 7 - 21</span>
+          </a>
+        </li>
+        <li class = "secondflight">
+          <a href="javascript:void(0)" class="tablinks" onclick="openCity(event,'NYC &harr; REK')"><strong> ✈ NYC &harr; REK</strong><br />
+            <span>Aug 5 - 19</span>
+          </a>
+        </li>
+        </ul>
+        <div class="uselessdiv">
+          <div class="slightlyusefuldiv">
+            <form><input class="destination" type="text" value="New York (NYC)">
+              </input>
+            </form>
+            <form>
+              <input class="destination" type="text" value="Rejkjavik (REK)">
+              </input>
+            </form>
+            <div class="wrapper">
+              <input class="searchbar" type="text" value ="15 days x"/>
+              <button>Tue Aug 5</button>
+              <button>Tue Aug 19</button>
+            </div>
+            <div>
+              <button class="searchbutton">Search</button>
+              <button class="addbutton"> <strong>+</strong></button>
+            </div>
+          </div>
+        </div>
+        <div class="body">
+          <div class="lefthandbar">
+            <ul>
+              <li class="pricealert">
+                <a href="google.com">
+                  Price alert
+                </a>
+              </li>
+              <li class="moveover">
+                <a href="google.com">
+                Fare Charts
+                </a>
+              </li>
+              <li>
+                <a href="google.com">
+                Airline Fees
+                </a>
+              </li>
+            </a>
+            </ul>
+            <p class="flex">
+              Flex Dates <a href="google.com">+/- 3 days</a> | <a href="google.com">Explorer</a>
+            </p>
+            <div class="graph">
+            <a href="google.com"><img src="/Users/macuser/Desktop/wyncode/projects/website_clone/websiteclone.png" alt="price graph"/></a>
+            </div>
+            <div class="checkboxes">
+              <p class=stops>
+                <strong>Stops</strong>
+                </p>
+                <ul class="stops">
+                  <li>
+                    <input type="checkbox" checked /> nonstop&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;$863 </br>
+                  </li>
+                  <li>
+                    <input type="checkbox" checked /> 1 stop &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;$1000 </br>
+                  </li>
+                  <li>
+                  <input type="checkbox" checked /> 2+ stops&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;2731</br>
+                  </li>
+                </ul>
+              <p class="stopprice">
+                <a href="google.com">show airline/stop price matrix</a>
+              </p>
+            </div>
+            <div class="times">
+              <h4>
+                Times
+              </h4>
+              <p>
+                <strong>Take-off New York</strong></br>
+                Tue 2:00p - Wed 12:00a</br>
+                <img src="/Users/macuser/Desktop/wyncode/projects/website_clone/scale.png" alt="sliding scale" />
+              </p>
+              <p>
+                <strong>Take-off Reykjavik</strong></br>
+                Tue 12:00a - Wed 12:00a
+                <img src="/Users/macuser/Desktop/wyncode/projects/website_clone/scale.png" alt="sliding scale" />
+              </p>
+              <p>
+                <a href="google.com">show landing times</a>
+              </p>
+            </div>
+            <div class="lastone">
+              <h4>Airports</h4>
+              <p>
+                <input type="checkbox" /> Depart/return, same airports
+              </p>
+            </div>
+          </div>
+          <div id = "rightcell">
+            <div class="headerdiv">
+              <pre font-size="22px" font-family=""><strong>15</strong> of <strong>64 flights</strong><font size="3px"><a href="google.com" text-decoration="none"> show all</a></font>                                                                                                                     <a href="google.com" text-decoration="none"><font size = "1px" color="black">sort by price (low to high) &#9660;</a></font>
+              </pre>
+            </div>
+            <div>
+              <div class="bodybox">
+                <p><strong>Check Rates</strong></p>
+                <button class="searchbutton">Select</button>
+                <div class="flightinfo">
+                  <p>
+                    <strong>Faster Flights. More Legroom. 2 Bags Free</strong>
+                    Save time and money with Icelandair on your way to
+                    Reykjavik
+                  </p>
+                  <a href="Icelandair.us">Icelandair.us</a>
+                  <pre>
+                    <img src="/Users/macuser/desktop/wyncode/projects/website_clone/icelandairbiglogo.png" alt="icelandair big logo" /></pre>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="bodybox">
+                <p><strong>$863</strong></p>
+                <button class="searchbutton">Select</button>
+                <div class="flightinfo">
+                  <p>
+                    <img src="/Users/macuser/desktop/wyncode/projects/website_clone/icelandairsmall.png" alt="icelandair" />
+                    <strong>IcelandAir</strong></br>
+                    JFK 2:10p &#8594; KEF 11:40p 5hr 30m nonstop </br>
+                    </br>
+                    KEF 10:30a &#8594; JFK 12:25p 5hr 55m nonstop</br>
+                  </p>
+                  <button>Details</button><button>Fares</button>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="bodybox">
+                <p><strong>$863</strong></p>
+                <button class="searchbutton">Select</button>
+                <div class="flightinfo">
+                  <p>
+                    <img src="/Users/macuser/desktop/wyncode/projects/website_clone/icelandairsmall.png" alt="icelandair" />
+                    <strong>IcelandAir</strong></br>
+                    EWR 8:45p &#8594; KEF 6:15a 5hr 30m nonstop </br>
+                    </br>
+                    KEF 10:30a &#8594; JFK 12:25p 5hr 55m nonstop</br>
+                  </p>
+                  <button>Details</button><button>Fares</button>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="bodybox">
+                <p><strong>$863</strong></p>
+                <button class="searchbutton">Select</button>
+                <div class="flightinfo">
+                  <p>
+                    <strong>IcelandAir</strong></br>
+                    JFK 8:40p &#8594; KEF 6:15a 5hr 35m nonstop </br>
+                    </br>
+                    KEF 10:30a &#8594; JFK 12:25p 5hr 55m nonstop</br>
+                  </p>
+                  <button>Details</button><button>Fares</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </body>
+</html>
